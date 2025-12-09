@@ -3,6 +3,7 @@
   "description": "Show METAR and TAF for your favourite airports.",
   "uuid": "aviationWeather@communitylabs.de",
   "settings-schema": "org.gnome.shell.extensions.aviationweather",
+  "url": "https://github.com/KingBBQ/GnomeMETAR",
   "shell-version": [
     "48"
   ]
