@@ -1,0 +1,18 @@
+# Compiled schemas (can be regenerated)
+schemas/gschemas.compiled
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db

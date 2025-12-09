@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.aviationweather" path="/org/gnome/shell/extensions/aviationweather/">
+    <key name="airport" type="s">
+      <default>'EDMA'</default>
+      <summary>Airport ICAO Code</summary>
+      <description>The ICAO code of the airport to fetch METAR data for (e.g., EDMA, EDDF, EDDM)</description>
+    </key>
+    <key name="update-interval" type="i">
+      <default>300</default>
+      <summary>Update Interval</summary>
+      <description>How often to fetch new METAR data, in seconds</description>
+    </key>
+    <!-- Flight Rules Thresholds (FAA Standard) -->
+    <!-- Visibility in statute miles, Ceiling in feet AGL -->
+    <key name="vfr-visibility" type="d">
+      <default>5.0</default>
+      <summary>VFR Visibility Minimum</summary>
+      <description>Minimum visibility in statute miles for VFR conditions (greater than this value)</description>
+    </key>
+    <key name="vfr-ceiling" type="i">
+      <default>3000</default>
+      <summary>VFR Ceiling Minimum</summary>
+      <description>Minimum ceiling in feet AGL for VFR conditions (greater than this value)</description>
+    </key>
+    <key name="mvfr-visibility" type="d">
+      <default>3.0</default>
+      <summary>MVFR Visibility Minimum</summary>
+      <description>Minimum visibility in statute miles for MVFR conditions (this value to VFR threshold)</description>
+    </key>
+    <key name="mvfr-ceiling" type="i">
+      <default>1000</default>
+      <summary>MVFR Ceiling Minimum</summary>
+      <description>Minimum ceiling in feet AGL for MVFR conditions (this value to VFR threshold)</description>
+    </key>
+    <key name="ifr-visibility" type="d">
+      <default>1.0</default>
+      <summary>IFR Visibility Minimum</summary>
+      <description>Minimum visibility in statute miles for IFR conditions (this value to MVFR threshold)</description>
+    </key>
+    <key name="ifr-ceiling" type="i">
+      <default>500</default>
+      <summary>IFR Ceiling Minimum</summary>
+      <description>Minimum ceiling in feet AGL for IFR conditions (this value to MVFR threshold)</description>
+    </key>
+    <!-- Below IFR thresholds = LIFR -->
+  </schema>
+</schemalist>

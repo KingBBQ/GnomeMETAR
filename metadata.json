@@ -1,0 +1,9 @@
+{
+  "name": "AviationWeather",
+  "description": "Show METAR and TAF for your favourite airports.",
+  "uuid": "aviationWeather@communitylabs.de",
+  "settings-schema": "org.gnome.shell.extensions.aviationweather",
+  "shell-version": [
+    "48"
+  ]
+}
