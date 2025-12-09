@@ -5,6 +5,10 @@
   "settings-schema": "org.gnome.shell.extensions.aviationweather",
   "url": "https://github.com/KingBBQ/GnomeMETAR",
   "shell-version": [
-    "48"
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
   ]
 }
